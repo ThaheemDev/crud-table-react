@@ -3,4 +3,4 @@
 ## Installation
 
 ```sh
-npm install react-crud-table
+npm install crud-table-react

@@ -1,5 +1,5 @@
 {
-    "name": "react-crud-table",
+    "name": "crud-table-react",
     "version": "1.0.0",
     "description": "A dynamic table component with CRUD actions",
     "main": "dist/index.js",

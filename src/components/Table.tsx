@@ -1,5 +1,4 @@
-import React from "react"; 
-import CrudAction from "./CrudAction";
+ import CrudAction from "./CrudAction";
 import { DefaultValues, FieldValues } from "react-hook-form";
 import { ViewContentPropsType } from "./../hooks/useCrudForm";
 

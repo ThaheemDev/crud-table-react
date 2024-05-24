@@ -1,4 +1,3 @@
-import React from "react";
 import { Edit, Plus, Trash } from "lucide-react";
 import Modal from "./Modal";
 import { ViewContentPropsType, useCrudForm } from "./../hooks/useCrudForm";

@@ -1,6 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
-
 const Modal: React.FC<{
   children: React.ReactElement;
   onClose?: () => void;
@@ -13,7 +10,7 @@ const Modal: React.FC<{
     }
   };
 
-  return ReactDOM.createPortal(
+  return (
     <div
       className="fixed top-0 left-0 bg-black bg-opacity-25 w-screen h-screen z-[999] grid place-items-center"
       onClick={handleClose}
@@ -35,8 +32,7 @@ const Modal: React.FC<{
         )}
         <div className="max-h-[80vh] overflow-y-auto py-3">{children}</div>
       </div>
-    </div>,
-    document.body
+    </div>
   );
 };
 

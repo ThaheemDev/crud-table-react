@@ -1,6 +1,6 @@
 {
     "name": "crud-table-react",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "description": "A dynamic table component with CRUD actions",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -20,5 +20,8 @@
     },
     "devDependencies": {
         "typescript": "^4.3.2"
-    }
+    },
+    "files": [
+        "dist"
+    ]
 }

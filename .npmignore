@@ -1,24 +1,14 @@
-# Directories
+src/
 node_modules/
-dist/
-coverage/
-build/
-
-# Config files
-.env
-.gitignore
-.npmignore
-tsconfig.json
-jest.config.js
-
-# Documentation files
-README.md
-LICENSE
-
-# Log files
 *.log
-
-# Temporary files
-.tmp/
-*.swp
-.DS_Store
+*.ts
+*.tsx
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.gitignore
+.prettierrc
+.eslintrc.js
+tsconfig.json

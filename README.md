@@ -1,6 +1,7 @@
-# My Dynamic Table Package
+# React Dynamic Table with Crud Operation - API 
 
-## Installation
+Coming Soon!....
 
-```sh
-npm install crud-table-react
+
+We are working on it 
+
